@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Probando subir archivo prototipo html</title>
+  </head>
+  <body>
+    <p>Formulario para enviar a ruta POST</p>
+    <form
+      action="https://proyecto-backend-nnmz.onrender.com/rutaPOST"
+      method="post"
+    >
+      Nombre: <input type="text" name="nombre" /><br /><br />
+      1º Apellido: <input type="text" name="apellido" /><br /><br />
+      Fecha:
+      <input type="datetime" name="fechahora" id="fechahora" /><br /><br />
+      Correo electrónico: <input type="email" name="correo" /><br /><br />
+      Teléfono: <input type="tel" name="telefono" /><br /><br />
+      <button type="submit">Enviar al backend con ruta post</button><br /><br />
+    </form>
+    <p>Rutas Get para enviar formulario</p>
+    <form
+      action="https://proyecto-backend-nnmz.onrender.com/rutaGet"
+      method="get"
+    >
+      Nombre: <input type="text" name="nombre" /><br /><br />
+      1º Apellido: <input type="text" name="apellido" /><br /><br />
+      Fecha:
+      <input type="datetime" name="fechahora" id="fechahora" /><br /><br />
+      Correo electrónico: <input type="email" name="correo" /><br /><br />
+      Teléfono: <input type="tel" name="telefono" /><br /><br />
+      <button type="submit">Enviar al backend con ruta get</button>
+    </form>
+  </body>
+</html>
